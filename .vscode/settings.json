@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "zenoh.h": "c",
+        "type_traits": "c",
+        "stdio.h": "c",
+        "inet.h": "c",
+        "time.h": "c",
+        "unistd.h": "c",
+        "cmath": "c",
+        "limits": "c",
+        "*.tcc": "c",
+        "typeinfo": "c",
+        "types.h": "c",
+        "scout_eth.h": "c",
+        "netdb.h": "c",
+        "master_command": "c"
+    }
+}

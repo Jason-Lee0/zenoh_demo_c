@@ -1,0 +1,6 @@
+{
+  /// The node's mode (router, peer or client)
+  mode: "peer",
+  
+  
+}

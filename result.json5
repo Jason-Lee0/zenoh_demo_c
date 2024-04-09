@@ -1,0 +1,7 @@
+{
+  mode: "peer",
+  listen: {
+   "endpoints": [
+	"tcp/169.254.28.145:7777"      ]
+  },
+}

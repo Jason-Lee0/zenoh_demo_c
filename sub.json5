@@ -1,0 +1,17 @@
+{
+  mode: "peer",
+  listen: {
+   "endpoints": [
+	        
+  ]
+  },
+   "transport": {
+    "link": {
+      "tls": {
+         "server_private_key": "/home/ha/test/host/key.pem",
+        "server_certificate": "/home/ha/test/host/cert.pem"
+      }
+    }
+  }
+
+}
