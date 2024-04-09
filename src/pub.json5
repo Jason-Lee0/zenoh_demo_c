@@ -1,0 +1,25 @@
+{
+  /// The node's mode (router, peer or client)
+  mode: "peer",
+  listen: {
+   "endpoints": [
+        "udp/172.30.70.226:5556"
+      ]
+  },
+  connect: {
+     "endpoints": [
+        "tcp/172.30.70.30:5586"
+      ]
+  },
+
+   scouting: {
+    multicast: {
+      enabled: true,
+      address: "224.0.0.224:7446",
+      interface: "auto",
+      autoconnect: { peer: "peer" },
+      listen: false,
+    },
+  },
+ 
+}
